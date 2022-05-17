@@ -1,0 +1,65 @@
+@import '../../sass/variables.scss';
+
+/* search input */
+
+.searchBar__c{
+    width: 35rem;
+    background-color: $Dark-Blue;
+    font-size: 1.8rem;
+    padding: 1.5rem 2rem;
+    display: flex;
+    place-items: center;
+    transition: $transition;
+    cursor: pointer;
+
+    &:hover{
+        background-color: $Soft-Blue;
+    }
+
+    input{
+        width: 100%;
+        margin-left: 2rem;
+        background-color: transparent;
+        text-transform: capitalize;
+        color: inherit;
+        font-size: 1.8rem;
+        font-weight: 500;
+        font-family: inherit;
+        border: none;
+        outline: none;
+        cursor: pointer;
+
+        &::placeholder{
+            color: #fff5;
+            text-transform: none;
+        }
+
+    }
+
+    @media(max-width: 650px){
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+}
+
+/*  search options */
+
+.searchOptions{
+    width: 16rem;
+    appearance: none;
+    background-color: $Dark-Blue;
+    color: $White;
+    font-weight: 600;
+    font-size: 1.6rem;
+    font-family: inherit;
+    border: none;
+    padding: 1.5rem 2rem;
+    outline: none;
+    cursor: pointer;
+    transition: $transition;
+
+    &:hover{
+        background-color: $Soft-Blue;
+    }
+}

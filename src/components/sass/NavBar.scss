@@ -1,0 +1,18 @@
+@import '../../sass/variables.scss';
+
+.navbar{
+    background-color: $Dark-Blue;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999;
+
+    a{
+        color: inherit;
+        font-size: 2rem;
+        font-weight: 800;
+    }
+}
